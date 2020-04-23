@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    background-color: #3f83ff;
+    white-space: nowrap;
+    margin: 0;
+    padding: 1em;
+}
+
+input {
+    display: block;
+}
+
+.padded {
+    padding: 15px;
+}
+
+.align-center {
+    text-align: center;
+}

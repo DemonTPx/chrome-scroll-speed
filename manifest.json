@@ -1,0 +1,27 @@
+{
+  "name": "Scroll Speed",
+  "version": "0.1",
+  "description": "Change the scroll speed",
+  "permissions": ["storage", "tabs", "http://*/*", "https://*/*"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "ftp://*/*"
+      ],
+      "exclude_globs": [
+        "*.pdf"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "manifest_version": 2
+}
