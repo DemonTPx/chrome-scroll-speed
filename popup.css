@@ -3,10 +3,11 @@ body {
 }
 
 h3 {
-    background-color: #3f83ff;
+    color: #fff;
+    background-color: #38f;
     white-space: nowrap;
     margin: 0;
-    padding: 1em;
+    padding: 0.7em 1em;
 }
 
 input {
